@@ -18,7 +18,7 @@ import java.util.Set;
 public class AuthExtProperties implements Serializable {
     public static final String PREFIX = "arthas.tunnel";
 
-    private String htmlTitle="Arthas控制台";
+    private String htmlTitle="优学派-Arthas控制台";
 
     private String superAdminRoleSign;
 
