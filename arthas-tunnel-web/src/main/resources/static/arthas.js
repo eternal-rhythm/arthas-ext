@@ -53,7 +53,9 @@ function initServiceSelect(uiSelect, list, key) {
         agentGroup = list[i];
         $(uiSelect).append("<option value=" + agentGroup.service + ">" + agentGroup.service + "</option>");
     }
-    selectServiceOnchange(list[0].service);
+    if (list.length > 0) {
+        selectServiceOnchange(list[0].service);
+    }
 }
 
 /**
